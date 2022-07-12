@@ -1,0 +1,42 @@
+.using{
+    flex-direction: column;
+    padding: 24px;
+    position: relative;
+    min-width: 250px;
+    max-width: 260px;
+
+    &_icon{
+        width: 48px;
+        height: 48px;
+    }
+
+    &_title{
+        margin-top: 32px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        color: #E0E0E0;
+    }
+
+    &_descr{
+        margin-top: 12px;
+        font-size: 16px;
+        color: #A0A0A0;
+    }
+}
+
+.using::after{
+    content: '';
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    width: 1px;
+    height: 150px;
+    transform: translateY(-50%);
+    background-color: #202020;
+}
+
+.using:hover{
+    background: linear-gradient(322.41deg, #1E1E1E 0%, #343434 100%);
+    border-radius: 32px;
+}

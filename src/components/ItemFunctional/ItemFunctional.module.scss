@@ -1,0 +1,19 @@
+.overview{
+    margin-top: 20px;
+
+    &_item{
+        width: 24px;
+        height: 24px;
+    }
+
+    &_text{
+        margin-left: 12px;
+        font-size: 16px;
+        color: #E0E0E0;
+        line-height: 24px;
+    }
+}
+
+p{
+    margin: 0;
+}

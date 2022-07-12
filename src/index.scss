@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding-top: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #E0E0E0;
+  background-color: #121212;
+  font-family: 'Inter', sans-serif;
+}
+
+div{
+  display: flex;
+}
+
+.g-container{
+  margin: 0 auto;
+  width: 1275px;
+  padding: 0px 25px;
+  flex-direction: column;
+}
+
+.g-wrapperScreens{
+  width: 100%;
+  flex-direction: column;
+}

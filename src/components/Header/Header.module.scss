@@ -1,0 +1,116 @@
+.header{
+    height: 104px;
+    color: #E0E0E0;
+    font-weight: 400;
+    z-index: 1000;
+
+    &__wrapper{
+        justify-content: space-between;
+        align-items: center;
+        height: 104px;
+
+        &_icon{
+            width: 87px;
+            height: 40px;
+        }
+
+        &__menu{
+            align-items:center;
+
+            &__list{
+                flex-direction: row;
+                list-style-type: none;
+                display: flex;
+
+                &_item{
+                    margin: 0px 24px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    position: relative;
+                    transition: .5s all;
+                }
+
+                &_item::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -10px;
+                    right: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #fff;
+                    border-radius: 50px;
+                    opacity: 0;
+                    transition: .5s all;
+                }
+
+                &_item:hover::after{
+                    opacity: 1;
+                }
+            }
+
+            &__languages{
+                align-items:center;
+                position: relative;
+                min-width: 75px;
+
+                &_icon{
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                }
+
+                &_text{
+                    margin-left: 8px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+
+                &__wrapperSwitch{
+                    position: absolute;
+                    width: 160px;
+                    height: 120px;
+                    background: linear-gradient(322.41deg, #242424 0%, #2E2E2E 100%);
+                    border-radius: 16px;
+                    top: 40px;
+                    right: 0;
+                    padding: 24px;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    &__block{
+                        width: 100%;
+                        height: 24px;
+                        justify-content: space-between;
+
+                        &__language{
+
+                            &_flag{
+                                width: 24px;
+                                height: 24px;
+                            }
+
+                            &_text{
+                                margin-left: 8px;
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+
+                        &_checkMark{
+                            width: 24px;
+                            height: 24px;
+                            opacity: 100;
+                            transition: .5s all;
+                        }
+
+                        &_hideCheckMark{
+                            opacity: 0;
+                            transition: .5s all;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

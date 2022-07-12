@@ -1,0 +1,32 @@
+.block{
+    width: 100%;
+    height: 24px;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &__language{
+
+        &_flag{
+            width: 24px;
+            height: 24px;
+        }
+
+        &_text{
+            margin-left: 8px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &_checkMark{
+        width: 24px;
+        height: 24px;
+        opacity: 100;
+        transition: .5s all;
+    }
+
+    &_hideCheckMark{
+        opacity: 0;
+        transition: .5s all;
+    }
+}

@@ -1,0 +1,132 @@
+.mainPage{
+    margin-top: 32px;
+
+    &__wrapper{
+
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &__mainText{
+            flex-direction: column;
+
+            &_label{
+                background-color: #2E281C;
+                padding: 8px 12px;
+                border-radius: 8px;
+                font-size: 16px;
+                color: #FFCA62;
+                line-height: 24px;
+                width: 153px;
+            }
+
+            &_h1{
+                margin: 20px 0px 0px 0px;
+                font-size: 56px;
+                font-weight: 900;
+                line-height: 79px;
+            }
+
+            &_descr{
+                margin-top: 20px;
+                color: #A0A0A0;
+                font-size: 16px;
+            }
+
+            &__buttons{
+                margin-top: 54px;
+
+                &_ios{
+                    cursor: pointer;
+                }
+
+                &_android{
+                    margin-left: 24px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &_icon{
+            width: 592px;
+            height: 672px;
+        }
+
+        &_blur1{
+            position: absolute;
+            width: 302px;
+            height: 302px;
+            background: #FFCA62;
+            filter: blur(200px);
+            right: 180px;
+            top: 215px;
+            z-index: -1;
+        }
+
+        &_blur2{
+            position: absolute;
+            width: 420px;
+            height: 420px;
+            background: #FFCA62;
+            filter: blur(150px);
+            right: 209px;
+            top: 76px;
+            z-index: -1;
+        }
+
+        &_blur3{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: #A0A0A0;
+            filter: blur(200px);
+            right: 255px;
+            top: 109px;
+            z-index: -1;
+        }
+
+        &_blur4{
+            position: absolute;
+            width: 333px;
+            height: 333px;
+            background: #A0A0A0;
+            filter: blur(200px);
+            right: 189px;
+            top: 309px;
+            z-index: -1;
+        }
+
+        &_blur5{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: #FFFFFF;
+            filter: blur(200px);
+            right: -28px;
+            top: 400px;
+            z-index: -1;
+        }
+
+        &_blur6{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: #A0A0A0;
+            filter: blur(200px);
+            right: -91px;
+            top: 400px;
+            z-index: -1;
+        }
+
+        &_blur7{
+            position: absolute;
+            width: 230px;
+            height: 230px;
+            background: #FFFFFF;
+            filter: blur(200px);
+            left: 57px;
+            top: 471px;
+            z-index: -1;
+        }
+    }
+}
