@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import classes from './EasyAccess.module.scss'
 import illustration from '../../img/svg/accessIllustration.svg'
+import notify from '../../img/svg/notification.svg'
 
 const EasyAccess = () => {
     const [inputEmail, setInputEmail] = useState('')
@@ -24,7 +25,10 @@ const EasyAccess = () => {
                                 placeholder={"Enter your email"} 
                                 value = {inputEmail} 
                                 onChange={(e) => {setInputEmail(e.target.value)}}/>
-                            <button className={classes.access__wrapper__block__inputForm_button} onClick={handleForm}>Notify me</button>
+                            <div className={classes.access__wrapper__block__inputForm_button} onClick={handleForm}>
+                                <img src={notify} alt="notify" className={classes.access__wrapper__block__inputForm_button_img}/>
+                                <p className={classes.access__wrapper__block__inputForm_button_text}>Notify me</p>
+                            </div>
                         </div>
                     </div>
                     <div className={classes.access__wrapper_blur1}/>

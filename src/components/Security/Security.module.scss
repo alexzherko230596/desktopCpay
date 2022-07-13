@@ -42,6 +42,7 @@
 
             &_btn:hover{
                 box-shadow: 0px 1px 12px rgba(255, 255, 255, 0.32), 0px 1px 40px rgba(255, 213, 128, 0.32);
+                transform: translate3d(0, 0, 0);
             }
         }
 
@@ -49,6 +50,10 @@
             position: absolute;
             background: #A0A0A0;
             filter: blur(300px);
+            -webkit-filter: blur(300px);
+            -moz-filter: blur(300px);
+            -ms-filter: blur(300px);
+            transform: translate3d(0, 0, 0);
             width: 312px;
             height: 312px;
             top: -28px;
@@ -59,6 +64,10 @@
             position: absolute;
             background: #FFCA62;
             filter: blur(250px);
+            -webkit-filter: blur(250px);
+            -moz-filter: blur(250px);
+            -ms-filter: blur(250px);
+            transform: translate3d(0, 0, 0);
             width: 540px;
             height: 540px;
             top: -90px;
