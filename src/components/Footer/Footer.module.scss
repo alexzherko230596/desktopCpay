@@ -1,15 +1,22 @@
 .footer{
     margin-top: 200px;
-    flex-direction: column;
+    // flex-direction: column;
 
     &__wrapper{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
+        width: 100%;
+        position: relative;
+
+        &__desktop{
+            justify-content: space-between;
+        }
 
         &_icon{
             width: 87px;
             height: 40px;
+            display: flex;
         }
 
         &__block{
@@ -60,5 +67,45 @@
         color: #A0A0A0;
         font-size: 16px;
         line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .footer{
+        margin-top: 190px;
+    
+        &__wrapper{
+    
+            &_icon{
+
+                display: none;
+
+            }
+    
+            &__block{
+                width: 100%;
+                justify-content: space-between;
+    
+                &__info{
+                    margin: 0px 24px;
+                    
+                    &_title{
+                        font-size: 20px;
+                        line-height: 32px;
+                        font-weight: 800;
+                        padding-bottom: 4px;
+                        cursor: pointer;
+                    }
+    
+                    &_descr{
+                        font-size: 16px;
+                        color: #A0A0A0;
+                        line-height: 24px;
+                        margin-top: 12px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
     }
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import classes from './ElementUsing.module.scss'
+import classes from './ElementHugeUsing.module.scss'
 import using from '../../img/svg/phoneTemplate.svg'
 
-const ElementUsing = (props) => {
+const ElementHugeUsing = (props) => {
     return(
         <div className={classes.using}>
             <div className={classes.using__wrapper}>
@@ -16,4 +16,4 @@ const ElementUsing = (props) => {
     )
 }
 
-export default ElementUsing
+export default ElementHugeUsing

@@ -9,8 +9,8 @@ const Security = () => {
                 <div className={classes.security__wrapper}>
                     <div className={classes.security__wrapper__block}>
                         <p className={classes.security__wrapper__block_title}>Safety and security</p>
-                        <p className={classes.security__wrapper__block_descr1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum et nunc dui velit velit dui congue pretium. Quis feugiat eu, nibh venenatis.</p>
-                        <p className={classes.security__wrapper__block_descr1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra ipsum, dui id ultrices faucibus. Tortor, tristique venenatis habitasse velit. Cursus nunc, id nisl enim, odio interdum et in varius.</p>
+                        <p className={classes.security__wrapper__block_descr1}>Cpay takes care of the safety of its clients' funds and provides an increased level of control at every stage of financial transactions</p>
+                        <p className={classes.security__wrapper__block_descr1}>The highest implementation standards ensure the reliability in the use of the multi-currency wallet for personal and corporate purposes around the world</p>
                         <button className={classes.security__wrapper__block_btn}>Download app</button>
                     </div>
                     <img src={lock} alt="Lock and a key" className={classes.security__wrapper_icon}/>

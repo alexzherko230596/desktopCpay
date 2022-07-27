@@ -8,9 +8,20 @@ const Header = () => {
 
     const [modalActive, setModalActive] = useState(false)
     const [currentLanguage, setCurrentLanguage] = useState('EN')
+    const [isBurgerMenu, setBurgerMenu] = useState(true)
 
     const hideModal = () => {
         setModalActive(false)
+    }
+
+    const handleBurger = () => {
+        if(isBurgerMenu){
+            document.body.style.overflow = "hidden"
+        }
+        else{
+            document.body.style.overflow = "visible"
+        }
+        setBurgerMenu(prev => !prev)
     }
 
     const openModalSwitchLanguages = () => {
@@ -38,6 +49,20 @@ const Header = () => {
                                 setCurrentLanguage={setCurrentLanguage}/> 
                         </div>
                     </div>
+                </div>
+                <div className={classes.header__mobile} onClick = {handleBurger}>
+                    <div className={isBurgerMenu ? classes.header__mobile__burger : `${classes.header__mobile__burger} ${classes.header__mobile_hidden}`}>
+                        <span/>
+                    </div>
+                </div>
+            </div>
+            <div className={ isBurgerMenu ? classes.header__mobile__wrapper_hidden : classes.header__mobile__wrapper}>
+                <div className={classes.header__mobile__wrapper__content}>
+                    <ul className={classes.header__mobile__wrapper__content__list}>
+                        <li className={classes.header__mobile__wrapper__content__list_item}>About</li>
+                        <li className={classes.header__mobile__wrapper__content__list_item}>Pricing</li>
+                        <li className={classes.header__mobile__wrapper__content__list_item}>Contacts</li>
+                    </ul>
                 </div>
             </div>
         </div>

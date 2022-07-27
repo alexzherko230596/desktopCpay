@@ -91,6 +91,7 @@
             -moz-filter: blur(200px);
             -ms-filter: blur(200px);
             transform: translate3d(0, 0, 0);
+            z-index: -1;
         }
 
         &_blur2{
@@ -157,4 +158,162 @@
 
 input:focus, textarea:focus, select:focus{
     outline: none;
+}
+
+@media only screen and (max-width: 1240px) {
+    .access{
+        margin-top: 180px;
+    
+        &__wrapper{
+
+            &_icon{
+                width: 0px;
+                height: 0px;
+            }
+
+            &__block{
+                flex-direction: column;
+                margin-left: 0px;
+                text-align: center;
+                width: 100%;
+                align-items: center;
+
+                &_title{
+                    font-weight: 800;
+                    font-size: 30px;
+                    color: #E0E0E0;
+                    margin: 0px;
+                    line-height: 40px;
+                }
+    
+                &_descr{
+                    margin-top: 16px;
+                    color: #A0A0A0;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &__inputForm{
+                    position: relative;
+                    width: 80%;
+                    margin-top: 32px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            &_blur1{
+                width: 200px;
+                height: 200px;
+                top: 40px;
+                left: -59px;
+                background: #A0A0A0;
+                filter: blur(200px);
+            }
+            &_blur2,&_blur3,&_blur4,&_blur5{
+                display: none;
+            }
+        }
+    }
+}   
+
+
+@media only screen and (max-width: 745px) {
+    .access{
+        margin-top: 100px;
+    
+        &__wrapper{
+
+            &_icon{
+                width: 0px;
+                height: 0px;
+            }
+
+            &__block{
+                flex-direction: column;
+                margin-left: 0px;
+                text-align: center;
+                width: 100%;
+                align-items: center;
+
+                &_title{
+                    font-weight: 800;
+                    font-size: 24px;
+                    color: #E0E0E0;
+                    margin: 0px;
+                    line-height: 32px;
+                }
+    
+                &_descr{
+                    margin-top: 12px;
+                    color: #A0A0A0;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                &__inputForm{
+                    position: relative;
+                    width: 100%;
+                    margin-top: 24px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &_input{
+                        width: 100%;
+                        height: 48px;
+                        border-radius: 30px;
+                        font-size: 14px;
+                        color: #A0A0A0;
+                        background-color: rgba(53, 48, 39, 0);
+                        border: solid 1px #A0A0A0;
+                        padding-left: 24px;
+                    }
+
+                    &_button{
+                        position: absolute;
+                        right: 0;
+                        height: 48px;
+                        border-radius: 30px;
+                        border: solid 1px #FFCA62;
+                        background-color: #FFCA62;
+                        color: #1E1E1E;
+                        width: 48px;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: .5s all;
+    
+                        &_text{
+                            display: none;
+                            font-size: 16px;
+                            letter-spacing: .2px;
+                            font-weight: 800;
+                            margin-left: 8px;
+                        }
+    
+                    }
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            &_blur1{
+                width: 200px;
+                height: 200px;
+                top: 40px;
+                left: -59px;
+                background: #A0A0A0;
+                filter: blur(200px);
+            }
+            &_blur2,&_blur3,&_blur4,&_blur5{
+                display: none;
+            }
+        }
+    }
 }

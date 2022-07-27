@@ -11,8 +11,8 @@ const DownloadApp = () => {
                 <div className={classes.download__wrapper}>
                     <img src={mockUp} alt='mockup' className={classes.download__wrapper_icon}/>
                     <div className={classes.download__wrapper__block}>
-                        <p className={classes.download__wrapper__block_title}>Lorem ipsum<br/>dolor sit amet</p>
-                        <p className={classes.download__wrapper__block_descr}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum et nunc dui velit velit dui congue pretium. Quis feugiat eu, nibh venenatis. Et nulla dictum ut eget</p>
+                        <p className={classes.download__wrapper__block_title}><span>Install</span> once <br/>Enjoy forever</p>
+                        <p className={classes.download__wrapper__block_descr}>Highly secure and innovative solution for storing, receiving, sending and exchanging money</p>
                         <div className={classes.download__wrapper__block__buttons}>
                             <img src={ios} alt='App store' className={classes.download__wrapper__block__buttons_ios}/>
                             <img src={android} alt='Google play' className={classes.download__wrapper__block__buttons_android}/>

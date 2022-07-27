@@ -13,10 +13,11 @@ const EasyAccess = () => {
         <div className={classes.access}>
             <div className="g-container">
                 <div className={classes.access__wrapper}>
-                    <img src={illustration} alt="Illustration" className={classes.mainPage__wrapper_icon}/>
+                    <img src={illustration} alt="Illustration" className={classes.access__wrapper_icon}/>
                     <div className={classes.access__wrapper__block}>
-                        <p className={classes.access__wrapper__block_title}>Get early access<br/>to the demo version</p>
-                        <p className={classes.access__wrapper__block_descr}>Lorem ipsum dolor sit amet, consectetur adipiscing     elit. Dictum et nunc dui velit velit dui congue pretium. Quis feugiat eu, nibh venenatis.
+                        <p className={classes.access__wrapper__block_title}>Get early access to the demo version</p>
+                        <p className={classes.access__wrapper__block_descr}>
+                            We are still working on the app, leave your email and we will notify you when the app goes into beta
                         </p>
                         <div className={classes.access__wrapper__block__inputForm}>
                             <input 

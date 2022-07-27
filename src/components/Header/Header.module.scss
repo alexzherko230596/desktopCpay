@@ -4,6 +4,17 @@
     font-weight: 400;
     z-index: 1000;
 
+    &__mobile{
+
+        &__wrapper{
+            display: none;
+
+            &_hidden{
+                display: none;
+            }
+        }
+    }
+
     &__wrapper{
         justify-content: space-between;
         align-items: center;
@@ -111,6 +122,98 @@
                     }
                 }
 
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+    .header{
+
+        &__wrapper{
+            display: none;
+        }
+        &__mobile{
+            margin-top: 32px;
+            position: relative;
+            
+            &__burger{
+                z-index: 100;
+                width: 32px;
+                height: 32px;
+                justify-content: center;
+                align-items: center;
+
+                span, span::before, span::after{
+                    position: absolute;
+                    width: 24px;
+                    height: 2px;
+                    background-color: #E0E0E0;
+                }
+
+                span::before{
+                    content: '';
+                    top: -8px;
+                }
+
+                span::after{
+                    content: '';
+                    top: 8px;
+                }
+
+            }
+
+            &_hidden{  
+
+                span {
+                    transform: rotate(45deg);
+                }
+
+                span::before{
+                    top: 0;
+                    transform: rotate(0);
+                }
+
+                span::after{
+                    top: 0;
+                    transform: rotate(90deg);
+                }
+            }
+
+            &__wrapper{
+                position: absolute;
+                width: 270px;
+                height: 100vh;
+                background:rgba(18, 18, 18, 0.4);
+                backdrop-filter: blur(64px);
+                z-index: 5;
+                display: flex;
+
+                &_hidden{
+                    display: none;
+                }
+
+                &__content{
+                    flex-direction: column;
+                    margin-left: 32px;
+                    padding-top: 64px;
+
+                    &__list{
+
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+
+                        &_item{
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #E0E0E0;
+                            margin-top: 32px;
+                        }
+                    }
+                }
             }
         }
     }

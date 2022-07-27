@@ -6,6 +6,10 @@
         flex-direction: column;
         position: relative;
 
+        &_mobileLogo{
+            display: none;
+        }
+
         &_title{
             margin: 0 auto;
             font-size: 40px;
@@ -26,32 +30,6 @@
             position: relative;
             backdrop-filter: blur(32px);
 
-
-            // &__advantages::after{
-            //     content: '';
-            //     left: 0;
-            //     height: 328px;
-            //     width: 100%;
-            //     position: absolute;
-            //     background: linear-gradient(45deg, rgba(96, 96, 96, .2),rgba(224, 224, 224, .2)) border-box; 
-            //     -webkit-mask:
-            //     linear-gradient(#fff 0 0) padding-box, 
-            //     linear-gradient(#fff 0 0);
-            //     -webkit-mask-composite: xor; 
-            //     mask-composite: exclude;
-            //     border: 1px solid transparent;
-            //     border-radius: 40px;
-            // }
-    
-            // &__advantages::before{
-            //     content: '';
-            //     position: absolute;
-            //     left: 0;
-            //     background-color: #181818ed;
-            //     width: 100%;
-            //     height: 100%;
-            //     border-radius: 40px;
-            // }
             &_fiat{
                 width: 50%;
                 height: 64px;
@@ -95,6 +73,11 @@
             margin-top: 72px;
             justify-content: space-between;
             align-items: center;
+
+            &_icon{
+                width: 514px;
+                height: 589px;
+            }
 
             &__overview{   
                 
@@ -143,6 +126,7 @@
             height: 333px;   
             top: 283px;
             right: -49px;
+            z-index: -1;
         }
 
         &_blur2{
@@ -160,4 +144,249 @@
             z-index: -1;
         }
     }
+}
+
+@media only screen and (max-width: 1240px) {
+    .application{
+        margin-top: 170px;
+    
+        &__wrapper{
+
+            &_title{
+                margin: 0 auto;
+                font-size: 30px;
+                font-weight: 800;
+                color: #E0E0E0;
+            }
+
+            
+            &__tab{
+                margin: 24px auto 0;
+                width: 70%;
+                height: 48px;
+                text-transform: uppercase;
+                cursor: pointer;
+                align-items:center;
+                backdrop-filter: blur(32px);
+
+                &_fiat{
+                    width: 50%;
+                    height: 48px;
+                    border-radius: 40px;
+                    justify-content: center;
+                    align-items:center;
+                    left: -1px;
+
+                }
+
+                &_crypto{
+                    width: 50%;
+                    height: 48px;
+                    border-radius: 40px;
+                    justify-content: center;
+                    align-items:center;
+                    color: #A0A0A0;
+                    position: absolute;
+                    right: -2px;
+                }
+            }
+
+            &__tab::after{
+                height: 48px;
+                width: 100%;
+            }
+
+            &__functional{
+                justify-content: space-between;
+                align-items: center;
+
+                &_icon{
+                    width: 40%;
+                    height: 70%;
+                }
+                &__overview{   
+                    
+                    margin-left: 58px;
+
+                    &_title{
+                        font-size: 24px;
+                        line-height: 32px;
+                        font-weight: 700;
+                    }
+
+                    &_button{
+                        background-color: #FFCA62;
+                        width: 220px;
+                        height: 48px;
+                        margin-top: 40px;
+                    }
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+        
+            }
+
+            &_blur1{
+                background: #FFCA62;
+                filter: blur(180px);
+                width: 250px;
+                height: 250px;   
+                top: -35px;
+                left: 6px;
+                z-index: -1;
+            }
+
+            &_blur2{
+                background: #FFCA62;
+                filter: blur(200px);
+                width: 420px;
+                height: 420px;   
+                top: -75px;
+                left: -200px;
+                z-index: -1;
+            }
+        }
+        &_leftImg{
+            position: absolute;
+            left: 0px;
+            top: 78px;
+            display: none;
+        }
+    
+        &_rightImg{
+            position: absolute;
+            right: 0px;
+            top: 61px;
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .application{
+        margin-top: 100px;
+        position: relative;
+    
+        &__wrapper{
+            align-items: center;
+
+            &_mobileLogo{
+                display: flex;
+                width: 260px;
+                height: 260px;
+                z-index: -2;
+            }
+
+            &_title{
+                display: none;
+                margin: 0 auto;
+                font-size: 30px;
+                font-weight: 800;
+                color: #E0E0E0;
+            }
+
+            
+            &__tab{
+
+                display: none;
+
+                &_fiat{
+                    width: 50%;
+                    height: 48px;
+                    border-radius: 40px;
+                    justify-content: center;
+                    align-items:center;
+                    left: -1px;
+
+                }
+
+                &_crypto{
+                    width: 50%;
+                    height: 48px;
+                    border-radius: 40px;
+                    justify-content: center;
+                    align-items:center;
+                    color: #A0A0A0;
+                    position: absolute;
+                    right: -2px;
+                }
+            }
+
+            &__tab::after{
+                height: 48px;
+                width: 100%;
+            }
+
+            &__functional{
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 22px;
+
+                &_icon{
+                    display: none;
+                }
+                &__overview{   
+                    
+                    margin-left: 0px;
+
+                    &_title{
+                        font-size: 22px;
+                        line-height: 32px;
+                        font-weight: 700;
+                        padding-bottom: 12px;
+                    }
+
+                    &_button{
+                        background-color: #FFCA62;
+                        width: 220px;
+                        height: 48px;
+                        margin-top: 32px;
+                        // width: 100%;
+                        margin: 32px auto;
+                    }
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+        
+            }
+
+            &_blur1{
+                background: #FFCA62;
+                filter: blur(180px);
+                width: 250px;
+                height: 250px;   
+                top: -35px;
+                left: 6px;
+                z-index: -1;
+            }
+
+            &_blur2{
+                background: #FFCA62;
+                filter: blur(200px);
+                width: 420px;
+                height: 420px;   
+                top: -75px;
+                left: -200px;
+                z-index: -1;
+            }
+        }
+        &_leftImg{
+            position: absolute;
+            left: 0px;
+            top: 78px;
+            display: flex;
+        }
+    
+        &_rightImg{
+            position: absolute;
+            right: 0px;
+            top: 61px;
+            display: flex;
+        }
+    }
+
 }

@@ -1,7 +1,7 @@
 .overview{
     margin-top: 20px;
 
-    &_item{
+    &_icon{
         width: 24px;
         height: 24px;
     }
@@ -16,4 +16,40 @@
 
 p{
     margin: 0;
+}
+
+@media only screen and (max-width: 1240px) {
+    .overview{
+        margin-top: 20px;
+    
+        &_icon{
+            width: 24px;
+            height: 24px;
+        }
+    
+        &_text{
+            margin-left: 12px;
+            font-size: 16px;
+            color: #E0E0E0;
+            line-height: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .overview{
+        margin-top: 16px;
+    
+        &_icon{
+            width: 24px;
+            height: 24px;
+        }
+    
+        &_text{
+            margin-left: 12px;
+            font-size: 14px;
+            color: #E0E0E0;
+            line-height: 20px;
+        }
+    }
 }

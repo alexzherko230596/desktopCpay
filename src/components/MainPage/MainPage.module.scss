@@ -17,7 +17,7 @@
                 font-size: 16px;
                 color: #FFCA62;
                 line-height: 24px;
-                width: 153px;
+                width: 161px;
             }
 
             &_h1{
@@ -25,12 +25,17 @@
                 font-size: 56px;
                 font-weight: 900;
                 line-height: 79px;
+
+                span{
+                    color: #FFCA62;
+                }
             }
 
             &_descr{
                 margin-top: 20px;
                 color: #A0A0A0;
                 font-size: 16px;
+                line-height: 20px;
             }
 
             &__buttons{
@@ -50,6 +55,7 @@
         &_icon{
             width: 592px;
             height: 672px;
+            display: flex;
         }
 
         &_blur1{
@@ -155,6 +161,167 @@
             left: 57px;
             top: 471px;
             z-index: -1;
+        }
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .mainPage{
+        margin-top: 0px;
+
+        &__wrapper{
+    
+            &__mainText{
+    
+                &_label{
+                    font-size: 14px;
+                    width: 144px;
+                }
+
+                &_h1{
+                    font-size: 32px;
+                    font-weight: 800;
+                    line-height: 44px;
+    
+                    span{
+                        color: #E0E0E0;
+                    }
+                }
+
+                &_descr{
+                    margin-top: 16px;
+                    font-size: 16px;
+                }
+            }
+
+            &_icon{
+                width: 45%;
+                height: 100%;
+                display: flex;
+            }
+
+            &_blur1{
+                width: 170px;
+                height: 170px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: 97px;
+                top: 110px;
+            }
+
+            &_blur2{
+                width: 400px;
+                height: 400px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: -10%;
+                top: -19px;
+            }
+            &_blur3{
+                width: 150px;
+                height: 150px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: 0%;
+                bottom: 65px;
+            }
+
+            &_blur4, &_blur5, &_blur6{
+                width: 0px;
+                height: 0px;
+            }
+
+            &_blur7{
+                width: 170px;
+                height: 170px;
+                background: #FFFFFF;
+                filter: blur(200px);
+                left: 57px;
+                bottom: -5%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .mainPage{
+
+        &__wrapper{
+    
+            &__mainText{
+
+                &_h1{
+                    font-size: 32px;
+                    font-weight: 800;
+                    line-height: 44px;
+    
+                    span{
+                        color: #FFCA62;
+                    }
+                }
+
+                &_descr{
+                    margin-top: 12px;
+                    font-size: 14px;
+                }
+
+                &__buttons{
+                    margin-top: 32px;
+    
+                    &_ios{
+                        cursor: pointer;
+                    }
+    
+                    &_android{
+                        margin-left: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            &_icon{
+                display: none;
+            }
+
+            &_blur1{
+                width: 170px;
+                height: 170px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: 97px;
+                top: 110px;
+            }
+
+            &_blur2{
+                width: 400px;
+                height: 400px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: -10%;
+                top: -19px;
+            }
+            &_blur3{
+                width: 150px;
+                height: 150px;
+                background: #FFCA62;
+                filter: blur(200px);
+                right: 0%;
+                bottom: 65px;
+            }
+
+            &_blur4, &_blur5, &_blur6{
+                width: 0px;
+                height: 0px;
+            }
+
+            &_blur7{
+                width: 170px;
+                height: 170px;
+                background: #FFFFFF;
+                filter: blur(200px);
+                left: 57px;
+                bottom: -5%;
+            }
         }
     }
 }

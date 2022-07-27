@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import classes from './Application.module.scss'
-import mockups from '../../img/svg/2MockUps.svg'
 import ItemFunctional from "../ItemFunctional/ItemFunctional";
+import smth from '../../img/svg/smth.svg'
+import bg from '../../img/svg/backgroungLogo.svg'
+import left from '../../img/svg/leftExample.svg'
+import right from '../../img/svg/rightExample.svg'
 
 const Application = () => {
     const [isFiat, setIsFiat] = useState(true)
@@ -12,8 +15,11 @@ const Application = () => {
 
     return(
         <div className={classes.application}>
+            <img src={left} alt ="Opportunity" className={classes.application_leftImg}/>
+            <img src={right} alt ="Opportunity" className={classes.application_rightImg}/>
             <div className="g-container">
                 <div className={classes.application__wrapper}>
+                    <img src={bg} alt ="Cpay logo" className={classes.application__wrapper_mobileLogo}/>
                     <p className={classes.application__wrapper_title}>Mobile application</p>
                     <div className={classes.application__wrapper__tab}>
                         <div 
@@ -32,15 +38,15 @@ const Application = () => {
                     <div className={classes.application__wrapper__functional}>
                         <div className={classes.application__wrapper__functional__overview}>
                             <p className={classes.application__wrapper__functional__overview_title}>Functional overview</p>
-                            <ItemFunctional title = {'Convallis tortor urna elementum pellentesque'}/>
-                            <ItemFunctional title = {'Lorem ipsum dolor sit amet, consectetur adipiscing'}/>
-                            <ItemFunctional title = {'Lorem ipsum dolor sit amet, consectetur'}/>
-                            <ItemFunctional title = {'Orci ullamcorper cras euismod sollicitudin'}/>
-                            <ItemFunctional title = {'At accumsan amet ultrices amet, pellentesque sodales'}/>
-                            <ItemFunctional title = {'Convallis tortor elementum pellentesque'}/>
+                            <ItemFunctional title = {'3 simple steps to transfer money within the system'}/>
+                            <ItemFunctional title = {'International transfer support'}/>
+                            <ItemFunctional title = {'Pay anywhere with the help of Сpay code'}/>
+                            <ItemFunctional title = {'Transfer money using a QR code'}/>
+                            <ItemFunctional title = {'Track your spendings'}/>
+                            <ItemFunctional title = {'10+ additional services'}/>
                             <button className={classes.application__wrapper__functional__overview_button}>Download app</button>
                         </div>
-                        <img src={mockups} alt="Mockup application Cpay24" className={classes.application__wrapper__functional_icon}/>
+                        <img src={smth} alt ="Mockup application Cpay24" className={classes.application__wrapper__functional_icon}/>
                     </div>
                     <div className={classes.application__wrapper_blur1}/>
                     <div className={classes.application__wrapper_blur2}/>

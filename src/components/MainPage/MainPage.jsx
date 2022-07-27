@@ -11,10 +11,10 @@ const MainPage = () => {
                 <div className={classes.mainPage__wrapper}>
                     <div className={classes.mainPage__wrapper__mainText}>
                         <div className={classes.mainPage__wrapper__mainText_label}>
-                            Multicurrency wallet
+                            Multicurrency app
                         </div>
-                        <h1 className={classes.mainPage__wrapper__mainText_h1}>New 2 in 1 app for crypto and fiat transfers</h1>
-                        <div className={classes.mainPage__wrapper__mainText_descr}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo mattis aliquet lorem lectus sapien vestibulum sed.</div>
+                        <h1 className={classes.mainPage__wrapper__mainText_h1}>New <span>2 in 1</span> app for crypto and fiat transfers</h1>
+                        <div className={classes.mainPage__wrapper__mainText_descr}>We are the ones who put an equal between crypto and fiat. This is why we have simplified the interaction between these currencies for our users </div>
                         <div className={classes.mainPage__wrapper__mainText__buttons}>
                             <img src={ios} alt="App store" className={classes.mainPage__wrapper__mainText__buttons_ios}/>
                             <img src={android} alt="Google play" className={classes.mainPage__wrapper__mainText__buttons_android}/>
