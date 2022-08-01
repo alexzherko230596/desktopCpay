@@ -304,14 +304,24 @@ input:focus, textarea:focus, select:focus{
             }
 
             &_blur1{
-                width: 200px;
-                height: 200px;
-                top: 40px;
-                left: -59px;
-                background: #A0A0A0;
-                filter: blur(200px);
+                width: 320px;
+                height: 320px;
+                top: 36px;
+                left: -10%;
+                background: #FFCA62;
+                filter: blur(300px);
             }
-            &_blur2,&_blur3,&_blur4,&_blur5{
+            &_blur2{
+                display: flex;
+                width: 150px;
+                height: 150px;
+                top: -45px;
+                right: 0%;
+                left: 0px;
+                background: #FFFFFF;
+                filter: blur(150px);
+            }
+            &_blur3,&_blur4,&_blur5{
                 display: none;
             }
         }

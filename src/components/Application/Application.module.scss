@@ -28,7 +28,7 @@
             cursor: pointer;
             align-items:center;
             position: relative;
-            backdrop-filter: blur(32px);
+            backdrop-filter: blur(0.5em);
 
             &_fiat{
                 width: 50%;
@@ -143,6 +143,21 @@
             right: -275px;
             z-index: -1;
         }
+        
+    }
+    
+    &_leftImg{
+        position: absolute;
+        left: 0px;
+        top: 78px;
+        display: none;
+    }
+
+    &_rightImg{
+        position: absolute;
+        right: 0px;
+        top: 61px;
+        display: none;
     }
 }
 
@@ -167,7 +182,7 @@
                 text-transform: uppercase;
                 cursor: pointer;
                 align-items:center;
-                backdrop-filter: blur(32px);
+                backdrop-filter: blur(0.5em);
 
                 &_fiat{
                     width: 50%;
@@ -362,6 +377,7 @@
                 top: -35px;
                 left: 6px;
                 z-index: -1;
+                display: none;
             }
 
             &_blur2{
@@ -372,6 +388,7 @@
                 top: -75px;
                 left: -200px;
                 z-index: -1;
+                display: none;
             }
         }
         &_leftImg{

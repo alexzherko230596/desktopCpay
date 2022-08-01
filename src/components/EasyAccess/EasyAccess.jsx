@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import classes from './EasyAccess.module.scss'
 import illustration from '../../img/svg/accessIllustration.svg'
 import notify from '../../img/svg/notification.svg'
+import { db } from '../../api/firebase-config'
+import { addDoc, collection, getDocs } from 'firebase/firestore'
 
 const EasyAccess = () => {
     const [inputEmail, setInputEmail] = useState('')
+    const usersCollectionRef = collection(db, "email")
 
-    const handleForm = () => {
-        console.log('123')
+    const handleForm = async (inputEmail) => {
+        console.log(inputEmail)
+        await addDoc(usersCollectionRef, { email: inputEmail })
+        const data = await getDocs(usersCollectionRef);
+        console.log(data)
+        setInputEmail('')
     }
     return(
         <div className={classes.access}>
@@ -26,7 +33,7 @@ const EasyAccess = () => {
                                 placeholder={"Enter your email"} 
                                 value = {inputEmail} 
                                 onChange={(e) => {setInputEmail(e.target.value)}}/>
-                            <div className={classes.access__wrapper__block__inputForm_button} onClick={handleForm}>
+                            <div className={classes.access__wrapper__block__inputForm_button} onClick={() => handleForm(inputEmail)}>
                                 <img src={notify} alt="notify" className={classes.access__wrapper__block__inputForm_button_img}/>
                                 <p className={classes.access__wrapper__block__inputForm_button_text}>Notify me</p>
                             </div>
