@@ -1,0 +1,91 @@
+{
+    "header" : {
+        "about" : "Główna",
+        "pricing" : "Świadczenia",
+        "contacts" : "Kontakty"
+    },
+
+    "mainPage" : {
+       "walletMulti" : "Portfel wielowalutowy",
+       "mainTitle" : "Aplikacja bankowości internetowej skoncentrowana na potrzebach klientów",
+       "mainTitleType" : "",
+       "descr" : "Wciąż pracujemy nad aplikacją, zostaw swój e-mail, a powiadomimy Cię, gdy aplikacja wejdzie do bety",
+       "button" : "Powiadom mnie"
+    },
+
+    "startUsage" : {
+        "title" : "Łatwy sposób na rozpoczęcie użytkowania",
+        "title1" : "Zainstaluj aplikację",
+        "descr1" : "Easy installation of the app using AppStore or Google play",
+        "title2" : "Kontrola KYC",
+        "descr2" : "Przejdź przez prostą procedurę weryfikacji tożsamości bez oddziałów i kolejek",
+        "title3" : "Utwórz konto",
+        "descr3" : "Wybierz walutę lub kryptowalutę, którą chcesz i załóż konto w 2 minuty",
+        "title4" : "Ciesz się aplikacją!",
+        "descr4" : "Płać, odbieraj, wymieniaj, przekazuj i otrzymuj cashback"
+    },
+
+    "esayAccess" : {
+        "title" : "",
+        "descr" : "",
+        "button" : "Powodzenie"
+    },
+
+    "application" : {
+        "title" : "Aplikacja mobilna",
+        "overview" : "Przegląd funkcji",
+        "adv1" : "Otwarcie rachunku w 5 minut online",
+        "adv2" : "Wszystko w aplikacji mobilnej",
+        "adv3" : "Transfery międzynarodowe i lokalne",
+        "adv4" : "Szybkie przeliczanie walut bez prowizji",
+        "adv5" : "Obsługa klienta 24/7",
+        "adv6" : "Prosty i łatwy w użyciu interfejs",
+        "button" : "Download app"
+    },
+
+    "whyUs" : {
+        "title" : "Dlaczego Cpay24 jest wyjątkowy?",
+        "descr" : "Pomagamy w łatwy i wygodny sposób rozwiązać wszystkie problemy finansowe. Wiemy, co lubisz. Wiemy, jak to zdobyć!",
+        "title1" : "Bank 2.0",
+        "descr1" : "Nasz ekosystem oparty na usługach finansowych i lifestylowych",
+        "title2" : "Crypto",
+        "descr2" : "Obsługa popularnych sieci blockchain i tokenów",
+        "title3" : "Nie ma kolejek",
+        "descr3" : "Zarządzaj swoimi finansami z wygodnej kanapy bezpośrednio w aplikacji",
+        "title4" : "Użyteczny interfejs",
+        "descr4" : "Przyjazny interfejs, który każdy użytkownik może zrozumieć",
+        "title5" : "24/7 Wsparcie ",
+        "descr5" : "Nasi eksperci są gotowi wspierać Cię nawet 1 stycznia",
+        "title6" : "Bezpieczeństwo",
+        "descr6" : "Dodatkowa ochrona biometryczna dla Twojego bezpieczeństwa",
+        "title7" : "Karta wirtualna",
+        "descr7" : "Możesz stać się właścicielem wirtualnej karty kryptowalutowej lub wielowalutowej",
+        "title8" : "Na całym świecie",
+        "descr8" : "Wykonuj przelewy i płać za zakupy w każdym kraju na świecie"
+    },
+
+    "security" : {
+        "title" : "Bezpieczeństwo i ochrona",
+        "descr1" : "Dbamy o bezpieczeństwo środków naszych klientów i zapewniamy zwiększony poziom kontroli na każdym etapie transakcji finansowych",
+        "descr2" : "Najwyższe standardy implementacji dają użytkownikom pewność korzystania z portfela wielowalutowego do celów osobistych i firmowych na całym świecie",
+        "button" : "Downlode app"
+    },
+    
+    "downloadApp" : {
+        "title1" : "Zostań pierwszym klientem banku przyszłości",
+        "descr" : "Wciąż pracujemy nad aplikacją, zostaw swój e-mail i otrzymaj szansę bycia jednym z pierwszych, którzy wypróbują aplikację",
+        "button" : "Powiadom mnie"
+    },
+
+    "footer" : {
+        "title1" : "Informacje",
+        "title2" : "Polityka prywatności",
+        "title3" : "Aplikacja",
+        "descr1_1" : "+48 526 623 234",
+        "descr1_2" : "",
+        "descr2_1" : "Warunki użytkowania",
+        "descr2_2" : "Mapa drogowa",
+        "descr3_1" : "Pobierz aplikację na iOS",
+        "descr3_2" : "Pobierz aplikację na Androida"
+    }
+}

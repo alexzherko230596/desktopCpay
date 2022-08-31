@@ -1,0 +1,169 @@
+.access{
+
+    &__wrapper{
+    
+        &__block{
+
+            &__inputForm{
+                position: relative;
+                width: 100%;
+                margin-top: 54px;
+
+                &_input{
+                    width: 100%;
+                    height: 56px;
+                    border-radius: 30px;
+                    color: #A0A0A0;
+                    background-color: rgba(53, 48, 39, 0);
+                    border: solid 1px #A0A0A0;
+                    padding-left: 24px;
+                }
+
+                &_button{
+                    position: absolute;
+                    right: 0;
+                    height: 60px;
+                    border-radius: 30px;
+                    border: solid 1px #FFCA62;
+                    background-color: #FFCA62;
+                    color: #1E1E1E;
+                    width: 240px;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    transition: .5s all;
+
+                    &_img{
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &_text{
+                        font-size: 16px;
+                        letter-spacing: .2px;
+                        font-weight: 800;
+                        margin-left: 8px;
+                    }
+
+                }
+
+                &_button:hover{
+                    box-shadow: 0px 1px 12px rgba(255, 255, 255, 0.32), 0px 1px 40px rgba(255, 213, 128, 0.32);
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+
+            &__inputFormSuccess{
+                position: relative;
+                width: 100%;
+                margin-top: 54px;
+
+                &__input{
+                    width: 100%;
+                    height: 56px;
+                    color: #A0A0A0;
+                    background: #77B459;
+                    border: 1px solid #77B459;
+                    border-radius: 30px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &_text{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        letter-spacing: 0.02em;
+                        color: #FFFFFF;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+@media only screen and (max-width: 1240px) {
+    .access{
+    
+        &__wrapper{
+
+            &__block{
+
+                &__inputForm{
+                    position: relative;
+                    width: 80%;
+                    margin-top: 32px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}   
+
+
+@media only screen and (max-width: 745px) {
+    .access{
+    
+        &__wrapper{
+
+            &__block{
+
+                &__inputForm{
+                    position: relative;
+                    width: 100%;
+                    margin-top: 24px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &_input{
+                        width: 100%;
+                        height: 48px;
+                        border-radius: 30px;
+                        font-size: 14px;
+                        color: #A0A0A0;
+                        background-color: rgba(53, 48, 39, 0);
+                        border: solid 1px #A0A0A0;
+                        padding-left: 24px;
+                    }
+
+                    &_button{
+                        position: absolute;
+                        right: 0;
+                        height: 48px;
+                        border-radius: 30px;
+                        border: solid 1px #FFCA62;
+                        background-color: #FFCA62;
+                        color: #1E1E1E;
+                        width: 48px;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: .5s all;
+    
+                        &_text{
+                            display: none;
+                            font-size: 16px;
+                            letter-spacing: .2px;
+                            font-weight: 800;
+                            margin-left: 8px;
+                        }
+    
+                    }
+
+                    &_button:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}

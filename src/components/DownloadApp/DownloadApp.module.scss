@@ -4,11 +4,12 @@
     &__wrapper{
 
         width: 100%;
-        height: 371px;
+        // height: 371px;
         border-radius: 40px;
         background: linear-gradient(322.41deg, rgba(224, 224, 224, 0.04) 0%, rgba(96, 96, 96, 0.04) 100%);
         border: 1px solid #1E1E1E;
         position: relative;
+        padding: 24px;
 
         &_icon{
             position: absolute;

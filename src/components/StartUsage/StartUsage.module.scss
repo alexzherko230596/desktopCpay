@@ -28,6 +28,7 @@
             background: linear-gradient(322.41deg, rgba(224, 224, 224, 0.04) 0%, rgba(96, 96, 96, 0.04) 100%);
             backdrop-filter: blur(0.5em);
             border-radius: 40px;
+            align-items: flex-start;
         }
 
         &__advantages::after{

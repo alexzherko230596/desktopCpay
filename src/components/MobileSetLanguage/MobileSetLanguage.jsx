@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react";
-import classes from './ModalSetLanguage.module.scss'
+import classes from './MobileSetLanguage.module.scss'
 import usa from '../../img/svg/unitedStates.svg'
 import poland from '../../img/svg/poland.svg'
 import russia from '../../img/svg/russia.svg'
 import ItemLanguage from "../ItemLanguage/ItemLanguage";
 import { useTranslation } from "react-i18next";
 
-const ModalSetLanguage = (props) => {
+const MobileSetLanguage = (props) => {
     const {t, i18n} = useTranslation()
     const [textLanguage, setTextLanguage] = useState('en')
 
@@ -67,4 +67,4 @@ const ModalSetLanguage = (props) => {
     )
 }
 
-export default ModalSetLanguage
+export default MobileSetLanguage

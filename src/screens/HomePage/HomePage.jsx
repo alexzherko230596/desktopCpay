@@ -14,7 +14,7 @@ function HomePage() {
             <Header />
             <MainPage />
             <StartUsage />
-            <EasyAccess />
+            {/* <EasyAccess /> */}
             <Application />
             <WhyUs />
             <Security />

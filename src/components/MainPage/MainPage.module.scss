@@ -11,18 +11,19 @@
             flex-direction: column;
 
             &_label{
+                width: fit-content;
                 background-color: #2E281C;
                 padding: 8px 12px;
                 border-radius: 8px;
                 font-size: 16px;
                 color: #FFCA62;
                 line-height: 24px;
-                width: 161px;
+                // width: 161px;
             }
 
             &_h1{
                 margin: 20px 0px 0px 0px;
-                font-size: 56px;
+                font-size: 52px;
                 font-weight: 900;
                 line-height: 79px;
 
@@ -175,7 +176,7 @@
     
                 &_label{
                     font-size: 14px;
-                    width: 144px;
+                    // width: 144px;
                 }
 
                 &_h1{

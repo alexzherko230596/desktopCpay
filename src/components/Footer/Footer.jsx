@@ -1,29 +1,31 @@
 import React from "react";
 import classes from './Footer.module.scss'
 import logo from '../../img/svg/logo.svg'
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const {t} = useTranslation()
     return(
-        <div className={classes.footer}>
+        <div className={classes.footer} id = 'BlockToScrollContacts'>
             <div className="g-container">
                 <div className={classes.footer__wrapper}>
                     <div className={classes.footer__wrapper__desktop}>
                         <img src={logo} alt="Cpay 24" className={classes.footer__wrapper_icon}/>
                         <div className={classes.footer__wrapper__block}>
                             <div className={classes.footer__wrapper__block__info}>
-                                <p className={classes.footer__wrapper__block__info_title}>Information</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor sit</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor sit consectetur</p>
+                                <p className={classes.footer__wrapper__block__info_title}>{t('footer.title1')}</p>
+                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr1_1')}</p>
+                                {/* <p className={classes.footer__wrapper__block__info_descr}></p> */}
                             </div>
                             <div className={classes.footer__wrapper__block__info}>
-                                <p className={classes.footer__wrapper__block__info_title}>Privacy policy</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor consectetur</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor sit</p>
+                                <p className={classes.footer__wrapper__block__info_title}>{t('footer.title2')}</p>
+                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr2_1')}</p>
+                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr2_2')}</p>
                             </div>
                             <div className={classes.footer__wrapper__block__info}>
-                                <p className={classes.footer__wrapper__block__info_title}>Application</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor sit amet</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>Lorem ipsum dolor amet consectetur</p>
+                                <p className={classes.footer__wrapper__block__info_title}>{t('footer.title3')}</p>
+                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr3_1')}</p>
+                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr3_2')}</p>
                             </div>
                         </div>
                     </div>

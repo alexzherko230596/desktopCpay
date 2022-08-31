@@ -7,22 +7,22 @@ const ItemLanguage = (props) => {
         switch(props.id) {
             case 1:
                 props.setCurrentLanguage('EN')
-                props.onChangeLanguage('english')
+                props.onChangeLanguage('en')
                 break;
 
             case 2:
                 props.setCurrentLanguage('PL')
-                props.onChangeLanguage('polish')
+                props.onChangeLanguage('pl')
                 break;
             
             case 3:
                 props.setCurrentLanguage('RU')
-                props.onChangeLanguage('russian')
+                props.onChangeLanguage('ru')
                 break;
 
             default:
                 props.setCurrentLanguage('EN')
-                props.onChangeLanguage('english')
+                props.onChangeLanguage('en')
                 break;
         }
     }

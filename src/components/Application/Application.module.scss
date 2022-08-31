@@ -25,7 +25,7 @@
             text-transform: uppercase;
             // border-radius: 40px;
             // border: 1px solid #808080;
-            cursor: pointer;
+            // cursor: pointer;
             align-items:center;
             position: relative;
             backdrop-filter: blur(0.5em);
@@ -141,6 +141,21 @@
             height: 730px;   
             top: 577px;
             right: -275px;
+            z-index: -1;
+        }
+
+        &_blur3{
+            position: absolute;
+            background: #FFCA62;
+            filter: blur(200px);
+            -webkit-filter: blur(200px);
+            -moz-filter: blur(200px);
+            -ms-filter: blur(200px);
+            transform: translate3d(0, 0, 0);
+            width:370px;
+            height: 370px;   
+            top: 16px;
+            left: -50px;
             z-index: -1;
         }
         

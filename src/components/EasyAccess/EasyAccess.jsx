@@ -1,21 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from './EasyAccess.module.scss'
 import illustration from '../../img/svg/accessIllustration.svg'
-import notify from '../../img/svg/notification.svg'
-import { db } from '../../api/firebase-config'
-import { addDoc, collection, getDocs } from 'firebase/firestore'
+import InputForm from "../InputForm/InputForm";
 
 const EasyAccess = () => {
-    const [inputEmail, setInputEmail] = useState('')
-    const usersCollectionRef = collection(db, "email")
-
-    const handleForm = async (inputEmail) => {
-        console.log(inputEmail)
-        await addDoc(usersCollectionRef, { email: inputEmail })
-        const data = await getDocs(usersCollectionRef);
-        console.log(data)
-        setInputEmail('')
-    }
     return(
         <div className={classes.access}>
             <div className="g-container">
@@ -26,7 +14,7 @@ const EasyAccess = () => {
                         <p className={classes.access__wrapper__block_descr}>
                             We are still working on the app, leave your email and we will notify you when the app goes into beta
                         </p>
-                        <div className={classes.access__wrapper__block__inputForm}>
+                        {/* <div className={classes.access__wrapper__block__inputForm}>
                             <input 
                                 className={classes.access__wrapper__block__inputForm_input}
                                 type={'email'} 
@@ -37,7 +25,8 @@ const EasyAccess = () => {
                                 <img src={notify} alt="notify" className={classes.access__wrapper__block__inputForm_button_img}/>
                                 <p className={classes.access__wrapper__block__inputForm_button_text}>Notify me</p>
                             </div>
-                        </div>
+                        </div> */}
+                        <InputForm />
                     </div>
                     <div className={classes.access__wrapper_blur1}/>
                     <div className={classes.access__wrapper_blur2}/>

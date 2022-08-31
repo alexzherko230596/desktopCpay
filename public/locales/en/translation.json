@@ -1,0 +1,91 @@
+{
+    "header" : {
+        "about" : "About",
+        "pricing" : "Benefits",
+        "contacts" : "Contacts"
+    },
+
+    "mainPage" : {
+       "walletMulti" : "Multicurrency wallet",
+       "mainTitle" : "Online Banking App  centred around the needs of its customers",
+       "mainTitleType" : "",
+       "descr" : "We are still working on the app, leave your email and we will notify you when the app goes into beta",
+       "button" : "Notify me"
+    },
+
+    "startUsage" : {
+        "title" : "Easy way to start using",
+        "title1" : "Install the app",
+        "descr1" : "Easy installation of the app using AppStore or Google play",
+        "title2" : "KYC check",
+        "descr2" : "Go through a simple identity verification procedure with no branches or queues",
+        "title3" : "Creat bank account",
+        "descr3" : "Choose the currency or crypto you want and create an account in 2 minutes",
+        "title4" : "Enjoy the app!",
+        "descr4" : "Pay, Receive, Trade, Transfer, and get cashback"
+    },
+
+    "esayAccess" : {
+        "title" : "",
+        "descr" : "",
+        "button" : "Successfully subscribed"
+    },
+
+    "application" : {
+        "title" : "Mobile application",
+        "overview" : "Functional overview",
+        "adv1" : "Account opening in 5 minutes online",
+        "adv2" : "Everything in the mobile app",
+        "adv3" : "International and local transfers",
+        "adv4" : "Fast currency conversion without commissions",
+        "adv5" : "24/7 Customer Service",
+        "adv6" : "Simple and easy to use interface",
+        "button" : ""
+    },
+
+    "whyUs" : {
+        "title" : "Why is Cpay special?",
+        "descr" : "We help you solve all financial problems easily and conveniently. We know what you like. We know how to get it!",
+        "title1" : "Bank 2.0",
+        "descr1" : "Our ecosystem based on financial and lifestyle services",
+        "title2" : "Crypto",
+        "descr2" : "Support popular blockchain networks and tokens",
+        "title3" : "No queues",
+        "descr3" : "Manage your finances from the comfort of your couch right in the app",
+        "title4" : "Usable interface",
+        "descr4" : "User-friendly interface that every user can understand",
+        "title5" : "24/7 Support",
+        "descr5" : "Our experts are ready to support you even on January 1",
+        "title6" : "Security",
+        "descr6" : "Additional biometric protection for your security",
+        "title7" : "Virtual Card",
+        "descr7" : "You can become the owner of a virtual crypto or multicurrency card",
+        "title8" : "Across the globe",
+        "descr8" : "Make transfers and pay for purchases in any country in the world"
+    },
+
+    "security" : {
+        "title" : "Safety and security",
+        "descr1" : "We care about the safety of our clients' funds and provide an increased level of control at each stage of financial transactions",
+        "descr2" : "The highest standards of implementation give users the reliability of using the multicurrency wallet for personal and corporate purposes around the world",
+        "button" : ""
+    },
+    
+    "downloadApp" : {
+        "title1" : "Become the first customer of the bank of the future",
+        "descr" : "We are still working on the app, leave your email and get a chance to be one of the first to try the app",
+        "button" : "Notify me"
+    },
+
+    "footer" : {
+        "title1" : "Information",
+        "title2" : "Privacy policy",
+        "title3" : "Application",
+        "descr1_1" : "+48 526 623 234",
+        "descr1_2" : "",
+        "descr2_1" : "Terms of Use",
+        "descr2_2" : "Roadmap",
+        "descr3_1" : "Download the iOS app",
+        "descr3_2" : "Download the app on Android"
+    }
+}
