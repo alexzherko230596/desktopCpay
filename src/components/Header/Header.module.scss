@@ -1,8 +1,11 @@
 .header{
     height: 104px;
-    color: #E0E0E0;
+    background: rgba(18, 18, 18, 0.4);
+    backdrop-filter: blur(64px);
     font-weight: 400;
     z-index: 1000;
+    position: fixed;
+    width: 100%;
 
     &__mobile{
 

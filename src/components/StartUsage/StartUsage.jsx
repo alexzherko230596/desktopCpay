@@ -37,7 +37,8 @@ const StartUsage = () => {
                             descr={'That is set up and ready to use'}
                             translateTitle = {'startUsage.title4'}
                             translateDescr = {'startUsage.descr4'}
-                            path={using}/>
+                            path={using}
+                            bgc = {true}/>
                     </div>
                 </div>
             </div>

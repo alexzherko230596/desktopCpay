@@ -29,6 +29,8 @@
             align-items:center;
             position: relative;
             backdrop-filter: blur(0.5em);
+            background: linear-gradient(322.41deg, rgba(224, 224, 224, 0.08) 0%, rgba(96, 96, 96, 0.08) 100%);
+            border-radius: 40px;
 
             &_fiat{
                 width: 50%;
@@ -38,7 +40,8 @@
                 align-items:center;
                 position: absolute;
                 left: -1px;
-
+                background: linear-gradient(322.41deg, #1E1E1E 0%, #343434 100%);
+                opacity: 0.9;
             }
 
             &_crypto{
@@ -50,6 +53,7 @@
                 color: #A0A0A0;
                 position: absolute;
                 right: -2px;
+                // background-color: white;
             }
         }
 
@@ -58,7 +62,7 @@
             position: absolute;
             height: 60px;
             width: 100%;
-            background: linear-gradient(45deg, rgba(96, 96, 96, .2),rgba(224, 224, 224, .2)) border-box; 
+            // background: linear-gradient(45deg, rgba(96, 96, 96, .2),rgba(224, 224, 224, .2)) border-box; 
             -webkit-mask:
             linear-gradient(#fff 0 0) padding-box, 
             linear-gradient(#fff 0 0);

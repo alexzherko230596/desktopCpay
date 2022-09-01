@@ -5,7 +5,7 @@ import { Trans } from "react-i18next";
 
 const ElementUsing = (props) => {
     return(
-        <div className={classes.using}>
+        <div className={props.bgc ?  `${classes.using} ${classes.color}` : classes.using}>
             <div className={classes.using__wrapper}>
                 <img src={using} alt="Install the app" className={classes.using__wrapper_icon}/>
                 <div className={classes.using__wrapper__mobile}>
