@@ -16,8 +16,10 @@ const InputForm = () => {
 
 
     const handleForm = async (inputEmail) => {
+        console.log('here')
         setError(false)
         if(regex.test(inputEmail)){
+            console.log('here2')
             await addDoc(usersCollectionRef, { email: inputEmail })
             const data = await getDocs(usersCollectionRef);
             setInputEmail('')
