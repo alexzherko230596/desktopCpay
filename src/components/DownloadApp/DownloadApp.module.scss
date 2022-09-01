@@ -10,6 +10,7 @@
         border: 1px solid #1E1E1E;
         position: relative;
         padding: 24px;
+        padding-right: 104px;
         backdrop-filter: blur(32px);
 
         &_icon{
@@ -24,11 +25,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            margin-left: 624px;
+            margin-left: 570px;
+            width: 100%;
 
             &_title{
-                font-size: 32px;
-                line-height: 40px;
+                font-size: 40px;
+                line-height: 50px;
                 font-weight: 700;
 
                 span{
@@ -41,7 +43,7 @@
                 color: #A0A0A0;
                 font-size: 16px;
                 line-height: 24px;
-                margin-top: 16px;
+                margin-top: 24px;
             }
 
             &__buttons{
@@ -130,6 +132,7 @@
     
             height: 371px;
             width: 100%;
+            padding-right: 24px;
     
             &_icon{
                 position: absolute;
@@ -148,6 +151,7 @@
                 &_title{
                     font-size: 30px;
                     line-height: 40px;
+                    width: 410px;
                 }
 
                 &_descr{
@@ -157,6 +161,7 @@
                     font-size: 16px;
                     line-height: 24px;
                     margin-top: 12px;
+                    width: 410px;
                 }
 
                 &__buttons{
@@ -237,6 +242,24 @@
                 top: 367px;
                 left: 332px;
                 z-index: -10;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .download{
+        &__wrapper{
+
+            &__block{
+    
+                &_title{
+                    width: auto;
+                }
+
+                &_descr{
+                    width: auto;
+                }
             }
         }
     }

@@ -228,3 +228,30 @@
         }
     }
 }
+
+@media only screen and (max-width: 745px) {
+    .header{
+        height: 60px;
+        
+        &__mobile{
+            margin-top: 16px;
+
+            &_hidden{  
+
+                span {
+                    transform: rotate(45deg);
+                }
+
+                span::before{
+                    top: 0;
+                    transform: rotate(0);
+                }
+
+                span::after{
+                    top: 0;
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+}
