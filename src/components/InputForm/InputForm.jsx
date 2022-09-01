@@ -13,19 +13,18 @@ const InputForm = () => {
     const [error,setError] = useState(false)
     const usersCollectionRef = collection(db, "email")
     const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-    console.log('check',localStorage.getItem("email"));
+
 
     const handleForm = async (inputEmail) => {
+        setError(false)
         if(regex.test(inputEmail)){
             await addDoc(usersCollectionRef, { email: inputEmail })
             const data = await getDocs(usersCollectionRef);
-            console.log(data)
             setInputEmail('')
             localStorage.setItem("email", inputEmail)
-            console.log('set',localStorage.getItem("email"));
         }
         else{
-            console.log('mo success');
+            setError(true)
         }
     }
     return !localStorage.getItem("email") ? (
@@ -40,6 +39,13 @@ const InputForm = () => {
                 <img src={notify} alt="notify" className={classes.access__wrapper__block__inputForm_button_img}/>
                 <p className={classes.access__wrapper__block__inputForm_button_text}>{t('downloadApp.button')}</p>
             </div>
+            {error && 
+                <div className={classes.access__wrapper__block__inputForm__error}>
+                    <p className={classes.access__wrapper__block__inputForm__error_text}>
+                    {t('esayAccess.incorrect')}
+                </p>
+                </div>
+            }
         </div>
     )
     :

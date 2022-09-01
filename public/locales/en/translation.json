@@ -27,7 +27,7 @@
 
     "esayAccess" : {
         "title" : "",
-        "descr" : "",
+        "incorrect" : "Email is incorrect!",
         "button" : "Successfully subscribed"
     },
 

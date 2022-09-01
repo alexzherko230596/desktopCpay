@@ -22,7 +22,7 @@
                 &_button{
                     position: absolute;
                     right: 0;
-                    height: 60px;
+                    height: 56px;
                     border-radius: 30px;
                     border: solid 1px #FFCA62;
                     background-color: #FFCA62;
@@ -51,6 +51,18 @@
                     box-shadow: 0px 1px 12px rgba(255, 255, 255, 0.32), 0px 1px 40px rgba(255, 213, 128, 0.32);
                     transform: translate3d(0, 0, 0);
                 }
+
+                &__error{
+                    position: absolute;
+                    top: -30px;
+                    justify-content: center;
+                    width: 100%;
+                    
+                    &_text{
+                        color: red;
+                        width: fit-content;
+                    }
+                }  
             }
 
             &__inputFormSuccess{
@@ -103,12 +115,75 @@ input:focus, textarea:focus, select:focus{
                     &_button:hover{
                         box-shadow: none;
                     }
+
+                    &__error{
+                        position: absolute;
+                        top: auto;
+                        bottom: -30px;
+                        justify-content: center;
+                        width: 100%;
+                        
+                        &_text{
+                            font-size: 15px;
+                            color: red;
+                            width: fit-content;
+                        }
+                    }  
                 }
             }
         }
     }
 }   
+@media only screen and (max-width: 992px) {
+    .access{
+    
+        &__wrapper{
 
+            &__block{
+
+                &__inputForm{
+
+                    &_button{
+                        width: 140px;
+    
+                        &_text{
+                            display: none;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .access{
+    
+        &__wrapper{
+
+            &__block{
+
+                &__inputForm{
+
+                    &__error{
+                        position: absolute;
+                        top: auto;
+                        bottom: -30px;
+                        justify-content: center;
+                        width: 100%;
+                        
+                        &_text{
+                            font-size: 15px;
+                            color: red;
+                            width: fit-content;
+                        }
+                    }  
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 745px) {
     .access{

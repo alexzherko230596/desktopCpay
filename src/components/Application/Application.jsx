@@ -6,6 +6,7 @@ import bg from '../../img/svg/backgroungLogo.svg'
 import left from '../../img/svg/leftExample.svg'
 import right from '../../img/svg/rightExample.svg'
 import { useTranslation } from "react-i18next";
+import mockUp from '../../img/svg/lastMockUp.svg'
 
 const Application = () => {
     const {t} = useTranslation()
@@ -59,7 +60,7 @@ const Application = () => {
                                 translateTitle={'application.adv6'}/>
                             {/* <button className={classes.application__wrapper__functional__overview_button}>Download app</button> */}
                         </div>
-                        <img src={smth} alt ="Mockup application Cpay24" className={classes.application__wrapper__functional_icon}/>
+                        <img src={mockUp} alt ="Mockup application Cpay24" className={classes.application__wrapper__functional_icon}/>
                     </div>
                     <div className={classes.application__wrapper_blur1}/>
                     <div className={classes.application__wrapper_blur2}/>
