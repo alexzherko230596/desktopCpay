@@ -135,6 +135,11 @@
 }
 
 @media only screen and (max-width: 745px) {
+
+    .using:nth-child(1){
+        margin-left: 0px;
+    }
+
     .using{
         width: 100%;
         padding-left: 0px;

@@ -14,8 +14,9 @@ const Footer = () => {
                         <div className={classes.footer__wrapper__block}>
                             <div className={classes.footer__wrapper__block__info}>
                                 <p className={classes.footer__wrapper__block__info_title}>{t('footer.title1')}</p>
-                                <p className={classes.footer__wrapper__block__info_descr}>{t('footer.descr1_1')}</p>
-                                {/* <p className={classes.footer__wrapper__block__info_descr}></p> */}
+                                {/* <p className={classes.footer__wrapper__block__info_descr}>+48 222472318</p> */}
+                                <a className={classes.footer__wrapper__block__info_descr} href='tel:+48123456789'>+48 222472318</a>
+                                <a className={classes.footer__wrapper__block__info_descr} href='tel:+48 222472355'>+48 222472355</a>
                             </div>
                             <div className={classes.footer__wrapper__block__info}>
                                 <p className={classes.footer__wrapper__block__info_title}>{t('footer.title2')}</p>
