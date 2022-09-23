@@ -7,19 +7,19 @@
 
     "mainPage" : {
        "walletMulti" : "Portfel wielowalutowy",
-       "mainTitle" : "Aplikacja bankowości internetowej skoncentrowana na potrzebach klientów",
+       "mainTitle" : "Nowy wymiar bankowości mobilnej skoncentrowanej na potrzebach klienta",
        "mainTitleType" : "",
-       "descr" : "Wciąż pracujemy nad aplikacją, zostaw swój e-mail, a powiadomimy Cię, gdy aplikacja wejdzie do bety",
+       "descr" : "Pracujemy and udoskonaleniem naszego produktu. Zostaw swój e-mail, to powiadomimy Cię o nowościach",
        "button" : "Powiadom mnie"
     },
 
     "startUsage" : {
         "title" : "Łatwy sposób na rozpoczęcie użytkowania",
         "title1" : "Zainstaluj aplikację",
-        "descr1" : "Easy installation of the app using AppStore or Google play",
-        "title2" : "Kontrola KYC",
+        "descr1" : "Łatwa instalacja po pobraniu aplikacji z AppStore lub Google play",
+        "title2" : "Standardy KYC",
         "descr2" : "Przejdź przez prostą procedurę weryfikacji tożsamości bez oddziałów i kolejek",
-        "title3" : "Utwórz konto",
+        "title3" : "Załóż konto",
         "descr3" : "Wybierz walutę lub kryptowalutę, którą chcesz i załóż konto w 2 minuty",
         "title4" : "Ciesz się aplikacją!",
         "descr4" : "Płać, odbieraj, wymieniaj, przekazuj i otrzymuj cashback"
@@ -34,8 +34,8 @@
     "application" : {
         "title" : "Aplikacja mobilna",
         "overview" : "Przegląd funkcji",
-        "adv1" : "Otwarcie rachunku w 5 minut online",
-        "adv2" : "Wszystko w aplikacji mobilnej",
+        "adv1" : "Otwarcie rachunku w 2 minuty online",
+        "adv2" : "Wszystko tylko w aplikacji mobilnej",
         "adv3" : "Transfery międzynarodowe i lokalne",
         "adv4" : "Szybkie przeliczanie walut bez prowizji",
         "adv5" : "Obsługa klienta 24/7",
@@ -46,28 +46,28 @@
     "whyUs" : {
         "title" : "Dlaczego Cpay24 jest wyjątkowy?",
         "descr" : "Pomagamy w łatwy i wygodny sposób rozwiązać wszystkie problemy finansowe. Wiemy, co lubisz. Wiemy, jak to zdobyć!",
-        "title1" : "Bank 2.0",
+        "title1" : "Bankowość 2.0",
         "descr1" : "Nasz ekosystem oparty na usługach finansowych i lifestylowych",
         "title2" : "Crypto",
         "descr2" : "Obsługa popularnych sieci blockchain i tokenów",
         "title3" : "Nie ma kolejek",
         "descr3" : "Zarządzaj swoimi finansami z wygodnej kanapy bezpośrednio w aplikacji",
-        "title4" : "Użyteczny interfejs",
-        "descr4" : "Przyjazny interfejs, który każdy użytkownik może zrozumieć",
+        "title4" : "Przyjazny i intuicyjny interfejs",
+        "descr4" : "Przyjazny i intuicyjny interfejs, który każdy użytkownik polubi od pierwszego razu",
         "title5" : "24/7 Wsparcie ",
-        "descr5" : "Nasi eksperci są gotowi wspierać Cię nawet 1 stycznia",
+        "descr5" : "Nasi eksperci są gotowi wspierać Cię o dowolnej porze dla dowolnej strefy czasowej",
         "title6" : "Bezpieczeństwo",
-        "descr6" : "Dodatkowa ochrona biometryczna dla Twojego bezpieczeństwa",
+        "descr6" : "Dodatkowa ochrona biometryczna twojej tożsamości to Twoje bezpieczeństwo",
         "title7" : "Karta wirtualna",
-        "descr7" : "Możesz stać się właścicielem wirtualnej karty kryptowalutowej lub wielowalutowej",
-        "title8" : "Na całym świecie",
-        "descr8" : "Wykonuj przelewy i płać za zakupy w każdym kraju na świecie"
+        "descr7" : "Możesz stać się szczęśliwym posiadaczem wirtualnej karty krypto-walutowej lub multi-walutowej",
+        "title8" : "Cały świat w zasięgu ręki",
+        "descr8" : "Wykonuj przelewy i płać za zakupy w dowolnym kraju na świecie"
     },
 
     "security" : {
         "title" : "Bezpieczeństwo i ochrona",
-        "descr1" : "Dbamy o bezpieczeństwo środków naszych klientów i zapewniamy zwiększony poziom kontroli na każdym etapie transakcji finansowych",
-        "descr2" : "Najwyższe standardy implementacji dają użytkownikom pewność korzystania z portfela wielowalutowego do celów osobistych i firmowych na całym świecie",
+        "descr1" : "Najważniejsze dla nas jest bezpieczeństwo środków naszych klientów dlatego zapewniamy zwiększony poziom kontroli na każdym etapie transakcji finansowych",
+        "descr2" : "Implementacja najwyższych standardów bezpieczeństwa daje użytkownikom pewność korzystania z portfela wielowalutowego do celów osobistych i firmowych na całym świecie",
         "button" : "Downlode app"
     },
     
